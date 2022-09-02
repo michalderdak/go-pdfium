@@ -9,7 +9,7 @@ package implementation
 import "C"
 
 import (
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/michalderdak/go-pdfium/responses"
 )
 
 func (p *PdfiumImplementation) getFontInformation(textPage C.FPDF_TEXTPAGE, charIndex int) *responses.FontInformation {

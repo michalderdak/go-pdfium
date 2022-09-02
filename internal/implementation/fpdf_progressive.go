@@ -15,11 +15,12 @@ static inline void IFSDK_PAUSE_SET_CB(IFSDK_PAUSE *p, char *id) {
 import "C"
 import (
 	"errors"
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/references"
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
 	"unsafe"
+
+	"github.com/michalderdak/go-pdfium/enums"
+	"github.com/michalderdak/go-pdfium/references"
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/responses"
 )
 
 // go_progressive_render_pause_cb is the Go implementation of IFSDK_PAUSE::NeedToPauseNow.

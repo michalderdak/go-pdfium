@@ -11,8 +11,8 @@ import "C"
 import (
 	"errors"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/responses"
 )
 
 // FPDFPageObj_GetClipPath Get the clip path of the page object.

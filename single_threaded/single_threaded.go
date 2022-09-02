@@ -3,11 +3,12 @@ package single_threaded
 import (
 	"errors"
 	"fmt"
-	"github.com/google/uuid"
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/internal/implementation"
 	"sync"
 	"time"
+
+	"github.com/google/uuid"
+	"github.com/michalderdak/go-pdfium"
+	"github.com/michalderdak/go-pdfium/internal/implementation"
 )
 
 var singleThreadedMutex = &sync.Mutex{}

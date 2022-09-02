@@ -8,10 +8,10 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
-	"github.com/klippa-app/go-pdfium/structs"
+	"github.com/michalderdak/go-pdfium/enums"
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/responses"
+	"github.com/michalderdak/go-pdfium/structs"
 )
 
 // FPDFBookmark_GetFirstChild returns the first child of a bookmark item, or the first top level bookmark item.

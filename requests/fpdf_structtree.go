@@ -1,6 +1,6 @@
 package requests
 
-import "github.com/klippa-app/go-pdfium/references"
+import "github.com/michalderdak/go-pdfium/references"
 
 type FPDF_StructTree_GetForPage struct {
 	Page Page

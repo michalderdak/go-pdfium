@@ -1,8 +1,8 @@
 package requests
 
 import (
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/michalderdak/go-pdfium/enums"
+	"github.com/michalderdak/go-pdfium/references"
 )
 
 type FPDFDoc_GetPageMode struct {

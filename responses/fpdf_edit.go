@@ -1,9 +1,9 @@
 package responses
 
 import (
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/references"
-	"github.com/klippa-app/go-pdfium/structs"
+	"github.com/michalderdak/go-pdfium/enums"
+	"github.com/michalderdak/go-pdfium/references"
+	"github.com/michalderdak/go-pdfium/structs"
 )
 
 type FPDF_CreateNewDocument struct {

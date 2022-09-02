@@ -1,6 +1,6 @@
 package responses
 
-import "github.com/klippa-app/go-pdfium/references"
+import "github.com/michalderdak/go-pdfium/references"
 
 type FPDF_GetSignatureCount struct {
 	Count int

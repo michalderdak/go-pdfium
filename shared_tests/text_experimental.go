@@ -6,8 +6,8 @@ package shared_tests
 import (
 	"io/ioutil"
 
-	"github.com/klippa-app/go-pdfium/references"
-	"github.com/klippa-app/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/references"
+	"github.com/michalderdak/go-pdfium/requests"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

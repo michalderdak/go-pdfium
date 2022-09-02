@@ -11,10 +11,10 @@ package implementation
 import "C"
 import (
 	"errors"
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
-	"github.com/klippa-app/go-pdfium/structs"
+	"github.com/michalderdak/go-pdfium/enums"
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/responses"
+	"github.com/michalderdak/go-pdfium/structs"
 	"unsafe"
 )
 

@@ -4,7 +4,7 @@ package implementation
 // #include "fpdf_edit.h"
 import "C"
 import (
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/michalderdak/go-pdfium/references"
 
 	"github.com/google/uuid"
 )

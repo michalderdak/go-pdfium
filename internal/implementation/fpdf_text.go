@@ -5,9 +5,10 @@ package implementation
 import "C"
 import (
 	"errors"
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
 	"unsafe"
+
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/responses"
 )
 
 // FPDFText_LoadPage returns a handle to the text page information structure.

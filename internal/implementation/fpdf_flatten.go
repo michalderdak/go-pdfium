@@ -4,8 +4,8 @@ package implementation
 // #include "fpdf_flatten.h"
 import "C"
 import (
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/responses"
 )
 
 // FPDFPage_Flatten makes annotations and form fields become part of the page contents itself.

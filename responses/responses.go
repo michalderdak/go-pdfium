@@ -1,7 +1,7 @@
 package responses
 
 import (
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/michalderdak/go-pdfium/references"
 )
 
 type OpenDocument struct {

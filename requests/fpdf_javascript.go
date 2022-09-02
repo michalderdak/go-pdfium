@@ -1,6 +1,6 @@
 package requests
 
-import "github.com/klippa-app/go-pdfium/references"
+import "github.com/michalderdak/go-pdfium/references"
 
 type FPDFDoc_GetJavaScriptActionCount struct {
 	Document references.FPDF_DOCUMENT

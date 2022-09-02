@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/responses"
 )
 
 func (i *pdfiumInstance) FORM_CanRedo(request *requests.FORM_CanRedo) (resp *responses.FORM_CanRedo, err error) {

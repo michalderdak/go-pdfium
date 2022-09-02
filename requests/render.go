@@ -1,7 +1,7 @@
 package requests
 
 import (
-	"github.com/klippa-app/go-pdfium/enums"
+	"github.com/michalderdak/go-pdfium/enums"
 )
 
 type RenderPageInDPI struct {

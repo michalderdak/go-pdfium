@@ -5,9 +5,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/single_threaded"
+	"github.com/michalderdak/go-pdfium"
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/single_threaded"
 )
 
 // Be sure to close pools/instances when you're done with them.

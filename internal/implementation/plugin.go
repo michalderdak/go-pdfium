@@ -3,8 +3,8 @@ package implementation
 import (
 	"os"
 
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/internal/commons"
+	"github.com/michalderdak/go-pdfium"
+	"github.com/michalderdak/go-pdfium/internal/commons"
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"

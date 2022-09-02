@@ -5,7 +5,7 @@ package implementation
 import "C"
 import (
 	"github.com/google/uuid"
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/michalderdak/go-pdfium/references"
 )
 
 func (p *PdfiumImplementation) registerGlyphPath(glyphPath C.FPDF_GLYPHPATH) *GlyphPathHandle {

@@ -7,7 +7,7 @@ import (
 	"unsafe"
 
 	"github.com/google/uuid"
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/michalderdak/go-pdfium/references"
 )
 
 func (p *PdfiumImplementation) registerFormHandle(formHandle C.FPDF_FORMHANDLE, formInfo unsafe.Pointer) *FormHandleHandle {

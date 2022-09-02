@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/klippa-app/go-pdfium/shared_tests"
-	"github.com/klippa-app/go-pdfium/single_threaded"
+	"github.com/michalderdak/go-pdfium/shared_tests"
+	"github.com/michalderdak/go-pdfium/single_threaded"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

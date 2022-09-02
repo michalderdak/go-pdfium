@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/responses"
 )
 {{ range $method := .Methods }}
 func (i *pdfiumInstance) {{ $method.Name }}(request *requests.{{ $method.Input }}) (resp *responses.{{ $method.Output }}, err error) {

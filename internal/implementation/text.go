@@ -8,14 +8,15 @@ import "C"
 import (
 	"bytes"
 	"errors"
-	"github.com/google/uuid"
-	"github.com/klippa-app/go-pdfium/references"
 	"io/ioutil"
 	"math"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/google/uuid"
+	"github.com/michalderdak/go-pdfium/references"
+
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/responses"
 
 	"golang.org/x/text/encoding/unicode"
 	"golang.org/x/text/transform"

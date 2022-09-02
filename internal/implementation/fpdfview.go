@@ -8,10 +8,10 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/enums"
-	pdfium_errors "github.com/klippa-app/go-pdfium/errors"
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/michalderdak/go-pdfium/enums"
+	pdfium_errors "github.com/michalderdak/go-pdfium/errors"
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/responses"
 )
 
 // FPDF_LoadDocument opens and load a PDF document from a file path.

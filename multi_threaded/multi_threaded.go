@@ -4,17 +4,18 @@ import (
 	goctx "context"
 	"errors"
 	"fmt"
-	"github.com/google/uuid"
 	"os"
 	"os/exec"
 	"sync"
 	"time"
 
+	"github.com/google/uuid"
+
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
 	pool "github.com/jolestar/go-commons-pool/v2"
-	"github.com/klippa-app/go-pdfium"
-	"github.com/klippa-app/go-pdfium/internal/commons"
+	"github.com/michalderdak/go-pdfium"
+	"github.com/michalderdak/go-pdfium/internal/commons"
 )
 
 type worker struct {

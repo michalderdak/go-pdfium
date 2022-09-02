@@ -9,8 +9,8 @@ import "C"
 import (
 	"errors"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/responses"
 )
 
 // FPDF_SetPrintMode sets printing mode when printing on Windows.

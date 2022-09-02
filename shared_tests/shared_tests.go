@@ -3,7 +3,7 @@ package shared_tests
 import (
 	"sync"
 
-	"github.com/klippa-app/go-pdfium"
+	"github.com/michalderdak/go-pdfium"
 )
 
 var PdfiumInstance pdfium.Pdfium

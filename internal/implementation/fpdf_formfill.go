@@ -47,13 +47,14 @@ static inline void FPDF_FORMFILLINFO_CALL_TIMER(TimerCallback t, int id) {
 import "C"
 import (
 	"errors"
-	"github.com/klippa-app/go-pdfium/enums"
-	"github.com/klippa-app/go-pdfium/references"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/requests"
-	"github.com/klippa-app/go-pdfium/responses"
-	"github.com/klippa-app/go-pdfium/structs"
+	"github.com/michalderdak/go-pdfium/enums"
+	"github.com/michalderdak/go-pdfium/references"
+
+	"github.com/michalderdak/go-pdfium/requests"
+	"github.com/michalderdak/go-pdfium/responses"
+	"github.com/michalderdak/go-pdfium/structs"
 )
 
 // go_formfill_Release_cb is the Go implementation of FPDF_FORMFILLINFO::Release.

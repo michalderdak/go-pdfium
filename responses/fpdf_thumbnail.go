@@ -1,6 +1,6 @@
 package responses
 
-import "github.com/klippa-app/go-pdfium/references"
+import "github.com/michalderdak/go-pdfium/references"
 
 type FPDFPage_GetDecodedThumbnailData struct {
 	Thumbnail []byte // The thumbnail data, nil when it doesn't exist.

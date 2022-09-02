@@ -10,7 +10,7 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/klippa-app/go-pdfium/references"
+	"github.com/michalderdak/go-pdfium/references"
 )
 
 type DocumentHandle struct {
