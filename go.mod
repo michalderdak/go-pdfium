@@ -1,4 +1,4 @@
-module github.com/klippa-app/go-pdfium
+module github.com/michalderdak/go-pdfium
 
 go 1.16
 
